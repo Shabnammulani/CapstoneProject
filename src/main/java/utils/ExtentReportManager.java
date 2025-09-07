@@ -16,7 +16,7 @@ public class ExtentReportManager {
 
             extent = new ExtentReports();
             extent.attachReporter(spark);
-            extent.setSystemInfo("Project", "nopCommerce Automation");
+            extent.setSystemInfo("Project", "BStackDemo Automation");
             extent.setSystemInfo("Browser", ConfigReader.get("browser"));
             extent.setSystemInfo("Base URL", ConfigReader.get("baseUrl"));
         }
