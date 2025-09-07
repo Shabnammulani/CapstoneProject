@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="listeners.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyAddressPositive"/>
+          <include name="verifyReceiptAndContinue"/>
+          <include name="verifyLogin"/>
+          <include name="verifyAddiPhone12Pro"/>
+          <include name="verifyCartClosedAndOrdersVisible"/>
+          <include name="verifyCheckout"/>
+          <include name="verifyProductAddAndQuantity"/>
+          <include name="verifyLogout"/>
+          <include name="seeorder"/>
+          <include name="tearDown"/>
+          <include name="setupTest"/>
+          <include name="tearDownSuite"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

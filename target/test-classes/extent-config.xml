@@ -1,0 +1,10 @@
+<extentreports>
+  <configuration>
+    <reportName>BStackDemo Automation</reportName>
+    <documentTitle>Execution Report</documentTitle>
+    <theme>standard</theme>
+    <encoding>utf-8</encoding>
+    <protocol>HTTPS</protocol>
+    <timelineEnabled>true</timelineEnabled>
+  </configuration>
+</extentreports>
