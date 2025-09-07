@@ -6,7 +6,10 @@
       <class name="tests.LoginTest">
         <methods>
           <include name="setUp"/>
-          <include name="verifyCheckout"/>
+          <include name="verifyAddiPhone12Pro"/>
+          <include name="verifyLogin"/>
+          <include name="verifyCartClosedAndOrdersVisible"/>
+          <include name="verifyProductAddAndQuantity"/>
           <include name="tearDown"/>
           <include name="setupTest"/>
           <include name="tearDownSuite"/>

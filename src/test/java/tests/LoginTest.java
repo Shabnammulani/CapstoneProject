@@ -82,7 +82,7 @@ public class LoginTest extends BaseTest{
 //
     @Test(priority = 4)
     public void verifyAddressPositive() throws TimeoutException {
-        loginPage.enterAddress("Scott", "Martin", "M.G Road", "Mumbai", "400101");
+        loginPage.enterAddress("Scott", "Martin", "M.G Road", "Mumbai", "400111");
         loginPage.util.pause(3);
         Assert.assertTrue(loginPage.isOrderPlaced(), "Order not placed successfully!");
     }

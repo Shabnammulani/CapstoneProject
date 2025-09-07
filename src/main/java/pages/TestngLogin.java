@@ -79,7 +79,7 @@ public class TestngLogin {
             // find the quantity element in the sidebar
             WebElement qtyElement = driver.findElement(By.cssSelector(".float-cart__shelf-container .shelf-item__details p.desc"));
             // check if it contains "Quantity: 2"
-            return qtyElement.getText().contains("Quantity: 3");
+            return qtyElement.getText().contains("Quantity: 2");
         } catch (Exception e) {
             return false;
         }
